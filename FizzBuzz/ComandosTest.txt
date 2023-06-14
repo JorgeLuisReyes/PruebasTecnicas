@@ -1,0 +1,39 @@
+//Crear proyecto
+npm init -y
+
+//Inatala la libreria Jest
+npm i -D jest
+
+//Configuramos Jest
+npx jest --init
+
+//pregunta 1
+Would you like to use Jest when running "test" script in "package.json"?
+yes
+
+//pregunta 2
+Would you like to use Typescript for the configuration file?
+No
+
+//pregunta 3
+Choose the test environment that will be used for testing
+node
+
+//pregunta 4
+Do you want Jest to add coverage reports?
+yes
+
+//pregunta 5
+Which provider should be used to instrument code for coverage? 
+v8
+
+//pregunta 6
+Automatically clear mock calls, instances, contexts and results before every test?
+yes
+
+Nota:
+//en el package.json se crea un scripts
+"test:watch": "jest --watchAll"
+
+//consola
+npm run test:watch
