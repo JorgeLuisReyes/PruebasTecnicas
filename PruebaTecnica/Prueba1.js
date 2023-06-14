@@ -8,7 +8,7 @@
 //un objeto en JavaScript con un método `hello que escribe "Mello" en la consola:
 const objeto = {
     name: 'Luis',
-    hola: () => consola.log(`Hello $(objeto.name)`)
+    hola: () => console.log(`Hello ${objeto.name}`)
   }
 
 // Llamar al metodo hola
