@@ -1,9 +1,18 @@
 /*
- * Problem 1 -
+ * Problem 1 - (A)
  *
  * Create an Object with a “hello” method that writes “Mello <name> in the console”
  *
  */
+
+//un objeto en JavaScript con un método `hello que escribe "Mello" en la consola:
+const objeto = {
+    name: 'Luis',
+    hola: () => consola.log(`Hello $(objeto.name)`)
+  }
+
+// Llamar al metodo hola
+objeto.hola(); // Salida: Hello
 
 /*
  * Problem 1 - (B)
